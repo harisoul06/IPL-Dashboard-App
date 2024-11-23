@@ -1,0 +1,42 @@
+.team-matches-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  padding: 20px;
+  text-align: center;
+}
+
+.team-banner {
+  width: 100%;
+}
+
+.umpires, .competing-team, .date, .venue, .result, .first-innings, .second-innings, .man-of-the-match {
+  color: #ffffff;
+  font-family: 'Bree Serif', serif;
+  margin: 10px 0;
+}
+
+.competing-team-logo {
+  max-width: 100px;
+}
+
+.recent-matches-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.match-card {
+  margin: 15px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.recent-match-logo {
+  max-width: 80px;
+}
+
+.match-team, .match-result, .match-status {
+  color: #ffffff;
+  font-family: 'Bree Serif', serif;
+  margin: 5px 0;
+}
